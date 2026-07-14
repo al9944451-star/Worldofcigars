@@ -4,39 +4,104 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>World of Cigar</title>
+
 <style>
-body{
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
     background:#111;
     color:white;
-    font-family:Arial,sans-serif;
-    text-align:center;
 }
+
+header{
+    background:#000;
+    padding:20px;
+    text-align:center;
+    border-bottom:2px solid gold;
+}
+
+header h1{
+    color:gold;
+    font-size:48px;
+}
+
+header p{
+    color:#ccc;
+    margin-top:10px;
+}
+
 .hero{
     padding:100px 20px;
+    text-align:center;
 }
-h1{
+
+.hero h2{
+    font-size:40px;
     color:gold;
-    font-size:52px;
 }
-button{
+
+.hero p{
+    margin-top:20px;
+    font-size:20px;
+    color:#ddd;
+}
+
+.button{
+    display:inline-block;
+    margin-top:30px;
     background:gold;
-    color:black;
-    border:none;
-    padding:15px 30px;
-    font-size:18px;
+    color:#111;
+    padding:15px 35px;
+    text-decoration:none;
     border-radius:8px;
-    cursor:pointer;
+    font-weight:bold;
 }
 </style>
 </head>
+
 <body>
 
-<div class="hero">
+<header>
 <h1>World of Cigar</h1>
 <p>Premium Cigars • Accessories • Cigar Lifestyle</p>
-<button>Explore Collection</button>
+</header>
+
+<section class="hero">
+<h2>Welcome to World of Cigar</h2>
+<p>Discover premium cigars and accessories with an elegant shopping experience.</p>
+<section style="padding:60px 20px;background:#1b1b1b;">
+
+<h2 style="text-align:center;color:gold;margin-bottom:40px;">Our Collection</h2>
+
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;">
+
+<div style="background:#222;padding:20px;width:250px;border-radius:10px;">
+<h3 style="color:gold;">Premium Cigars</h3>
+<p>Discover a curated selection of premium cigars from renowned brands.</p>
 </div>
+
+<div style="background:#222;padding:20px;width:250px;border-radius:10px;">
+<h3 style="color:gold;">Accessories</h3>
+<p>Quality cutters, lighters, humidors, and other essential accessories.</p>
+</div>
+
+<div style="background:#222;padding:20px;width:250px;border-radius:10px;">
+<h3 style="color:gold;">Gift Sets</h3>
+<p>Luxury cigar gift sets for collectors and special occasions.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer style="background:#000;padding:30px;text-align:center;border-top:2px solid gold;">
+<p>&copy; 2026 World of Cigar. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
