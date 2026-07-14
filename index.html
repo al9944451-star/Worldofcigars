@@ -59,7 +59,7 @@ header p{
 }
 
 
-/* CATALOG */
+/* BRAND CATALOG */
 .catalog{
     padding:60px 20px;
     background:#1b1b1b;
@@ -72,33 +72,29 @@ header p{
     font-size:35px;
 }
 
-.product{
+.brand-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.brand{
     background:#222;
-    padding:25px;
-    margin:20px auto;
-    max-width:320px;
+    width:250px;
+    padding:30px;
     border-radius:10px;
     border:1px solid gold;
 }
 
-.product h3{
+.brand h3{
     color:gold;
     font-size:25px;
 }
 
-.product p{
+.brand p{
     margin-top:15px;
-    color:#ddd;
-}
-
-.product button{
-    margin-top:20px;
-    padding:12px 25px;
-    background:gold;
-    color:#111;
-    border:none;
-    border-radius:5px;
-    font-weight:bold;
+    color:#ccc;
 }
 
 
@@ -119,8 +115,11 @@ footer{
 
 
 <header>
+
 <h1>WORLD OF CIGAR</h1>
+
 <p>Premium Cigars • Accessories • Cigar Lifestyle</p>
+
 </header>
 
 
@@ -138,55 +137,49 @@ Discover premium cigars and accessories with an elegant shopping experience.
 
 <section class="catalog">
 
-<h2>Our Collection</h2>
+<h2>Our Brands</h2>
 
 
-<div class="product">
+<div class="brand-list">
 
+
+<div class="brand">
 <h3>Cohiba</h3>
-
-<p>
-Premium cigar dengan aroma khas dan kualitas terbaik.
-</p>
-
-<button>
-Pesan Sekarang
-</button>
-
+<p>View Collection</p>
 </div>
 
 
-
-<div class="product">
-
-<h3>Partagas Series D4</h3>
-
-<p>
-Cigar Kuba dengan rasa kuat dan karakter klasik.
-</p>
-
-<button>
-Pesan Sekarang
-</button>
-
+<div class="brand">
+<h3>Montecristo</h3>
+<p>View Collection</p>
 </div>
 
 
-
-<div class="product">
-
-<h3>Partagas Series D5</h3>
-
-<p>
-Cigar elegan dengan cita rasa kaya.
-</p>
-
-<button>
-Pesan Sekarang
-</button>
-
+<div class="brand">
+<h3>Romeo y Julieta</h3>
+<p>View Collection</p>
 </div>
 
+
+<div class="brand">
+<h3>Partagas</h3>
+<p>View Collection</p>
+</div>
+
+
+<div class="brand">
+<h3>Trinidad</h3>
+<p>View Collection</p>
+</div>
+
+
+<div class="brand">
+<h3>H. Upmann</h3>
+<p>View Collection</p>
+</div>
+
+
+</div>
 
 </section>
 
